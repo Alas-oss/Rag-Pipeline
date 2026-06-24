@@ -61,7 +61,7 @@ def chunk_text(text, chunk_size=500, overlap=50):
     return chunks
 
 def download_all():
-    os.makedirs("data/essays", exit_ok=True)
+    os.makedirs("data/essays", exist_ok=True)
     all_chunks = []
     total_chunks = 0
 
@@ -73,7 +73,7 @@ def download_all():
             print(f" -> {words} words")
 
             filepath = os.path.join("data", "essays", filename)
-            with open(filename, "w", encoding="utf-8") as f:
+            with open(filepath, "w", encoding="utf-8") as f:
                 f.write(text)
 
             chunks = chunk_text(text)
@@ -95,5 +95,5 @@ def download_all():
 
     print(f"\nDone! {len(ESSAYS)} essays, {total_chunks} chunks saved to data/chunks.json")
 
-if __name__=="__name__":
+if __name__=="__main__":
     download_all()
