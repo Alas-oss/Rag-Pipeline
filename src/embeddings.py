@@ -10,7 +10,7 @@ def load_chunks():
         return json.load(f)
     
 def embed_chunks(chunks):
-    print(f"LOading mode: {MODEL_NAME}")
+    print(f"Loading mode: {MODEL_NAME}")
     model = SentenceTransformer(MODEL_NAME)
 
     texts = [chunk["text"] for chunk in chunks]
