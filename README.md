@@ -7,11 +7,17 @@ A production-ready Retrieval-Augmented Generation (RAG) pipeline built from scra
 ## System Architecture & Mechanics
 
 [11 Online Essays] → (Custom HTML Scraper) → [Raw Text Files]
+
       ↓
+      
 (Text Chunking)
+
       ↓
+      
 [Local Database] ← (all-MiniLM-L6-v2) ← [118 Data Chunks]
+
       ↓
+      
 (User Query) → [Top-3 Similarity Check] → (Context Injection) → [Groq Llama 3.1 LLM]
 
 ### 1. Data Ingestion & Custom Processing Loop
