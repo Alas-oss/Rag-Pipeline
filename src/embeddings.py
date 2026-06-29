@@ -1,27 +1,30 @@
 import json
 import os
-import numpy as np 
+import numpy as np
 from sentence_transformers import SentenceTransformer
 
 MODEL_NAME = "all-MiniLM-L6-v2"
 
+
 def load_chunks():
     with open("data/chunks.json", "r", encoding="utf-8") as f:
         return json.load(f)
-    
+
+
 def embed_chunks(chunks):
-    print(f"Loading mode: {MODEL_NAME}")
+    print(f"Loading model: {MODEL_NAME}")
     model = SentenceTransformer(MODEL_NAME)
 
     texts = [chunk["text"] for chunk in chunks]
-    print(f"Embedding {len(texts)} chunks")
+    print(f"Embedding {len(texts)} chunks...")
     embeddings = model.encode(texts, show_progress_bar=True)
 
     print(f"Done. Each embedding has {embeddings.shape[1]} dimensions.")
     return model, embeddings
 
-def save_embeddings(chunk, embeddings):
-    data = [] 
+
+def save_embeddings(chunks, embeddings):
+    data = []
     for i, chunk in enumerate(chunks):
         data.append({
             "essay": chunk["essay"],
@@ -34,7 +37,9 @@ def save_embeddings(chunk, embeddings):
 
     print(f"Saved {len(data)} embeddings to data/embeddings.json")
 
-if __name__=="__main__":
+
+if __name__ == "__main__":
     chunks = load_chunks()
     model, embeddings = embed_chunks(chunks)
     save_embeddings(chunks, embeddings)
+    print("Done!")

@@ -1,0 +1,182 @@
+[
+  {
+    "question": "What does Paul Graham say about the importance of working on hard problems?",
+    "answer": "Work still seemed to require discipline, because only hard problems yielded grand results, and hard problems couldn't literally be fun.",
+    "sources": [
+      {
+        "essay": "how_to_do_what_you_love",
+        "score": 0.3627
+      },
+      {
+        "essay": "how_to_do_what_you_love",
+        "score": 0.3192
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.317
+      }
+    ]
+  },
+  {
+    "question": "How does Paul Graham define a startup?",
+    "answer": "A startup is a company designed to grow fast. Being newly founded does not in itself make a company a startup. Nor is it necessary for a startup to work on technology, or take venture funding, or have some sort of \"exit.\" The only essential thing is growth.",
+    "sources": [
+      {
+        "essay": "startup_growth",
+        "score": 0.4866
+      },
+      {
+        "essay": "do_things_that_dont_scale",
+        "score": 0.4558
+      },
+      {
+        "essay": "startup_growth",
+        "score": 0.4262
+      }
+    ]
+  },
+  {
+    "question": "What advice does he give to young people choosing a career?",
+    "answer": "He advises young people to treat high school as a day job, get good grades to get into a decent college, and then use the university as a place to be around other smart people. He also suggests that they should focus on what they really want to do, rather than what others think they should do.",
+    "sources": [
+      {
+        "essay": "hiring_is_obsolete",
+        "score": 0.4894
+      },
+      {
+        "essay": "what_youll_wish_youd_known",
+        "score": 0.4711
+      },
+      {
+        "essay": "how_to_do_what_you_love",
+        "score": 0.4222
+      }
+    ]
+  },
+  {
+    "question": "What does he think about college education?",
+    "answer": "He thinks that college education can create the illusion that doing great things requires a lot of discipline, which is not true. He also found that the subjects he was interested in, such as philosophy, were not as exciting as he thought they would be, and that other fields took up most of the space of ideas, leaving little room for ultimate truths. He switched to studying AI, which was more interesting to him, and learned Lisp, which expanded his concept of a program and was more like what he had expected college to do.",
+    "sources": [
+      {
+        "essay": "what_youll_wish_youd_known",
+        "score": 0.4225
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.3959
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.3943
+      }
+    ]
+  },
+  {
+    "question": "How does Paul Graham view the role of investors?",
+    "answer": "Paul Graham views investors as needing to be paid back, ideally after the startup IPOs or when it's acquired, and also as needing to oversee their investments easily. He notes that VCs like to invest in startups because such investments are easy to oversee, as the founders can't enrich themselves without also enriching the investors.",
+    "sources": [
+      {
+        "essay": "startup_growth",
+        "score": 0.3971
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.3886
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.3716
+      }
+    ]
+  },
+  {
+    "question": "What does he say about procrastination?",
+    "answer": "People who do great things are all terrible procrastinators and find it almost impossible to make themselves do anything they're not interested in.",
+    "sources": [
+      {
+        "essay": "what_youll_wish_youd_known",
+        "score": 0.5179
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.3936
+      },
+      {
+        "essay": "how_to_do_what_you_love",
+        "score": 0.3873
+      }
+    ]
+  },
+  {
+    "question": "What is his view on programming languages?",
+    "answer": "He believes that programming languages can be well or badly designed, and that it's possible to have a fruitful discussion about the relative merits of programming languages, as long as you exclude people who respond from identity.",
+    "sources": [
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.4437
+      },
+      {
+        "essay": "keep_your_identity_small",
+        "score": 0.4248
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.3692
+      }
+    ]
+  },
+  {
+    "question": "How does he describe the qualities of a good founder?",
+    "answer": "A good founder is someone who is determined, strong-willed, and hard on themselves. They are also able to resist the urge to overhire and prematurely scale their business.",
+    "sources": [
+      {
+        "essay": "the_anatomy_of_determination",
+        "score": 0.4192
+      },
+      {
+        "essay": "default_alive_or_default_dead",
+        "score": 0.4
+      },
+      {
+        "essay": "how_to_get_startup_ideas",
+        "score": 0.3957
+      }
+    ]
+  },
+  {
+    "question": "What does he say about taste and aesthetics in work?",
+    "answer": "I don't have enough information to answer that.",
+    "sources": [
+      {
+        "essay": "how_to_do_what_you_love",
+        "score": 0.3559
+      },
+      {
+        "essay": "how_to_do_what_you_love",
+        "score": 0.3486
+      },
+      {
+        "essay": "what_i_worked_on",
+        "score": 0.3248
+      }
+    ]
+  },
+  {
+    "question": "What is his advice on how to get startup ideas?",
+    "answer": "The way to get startup ideas is not to try to think of startup ideas. It's to look for problems, preferably problems you have yourself.",
+    "sources": [
+      {
+        "essay": "how_to_get_startup_ideas",
+        "score": 0.623
+      },
+      {
+        "essay": "how_to_get_startup_ideas",
+        "score": 0.6208
+      },
+      {
+        "essay": "how_to_get_startup_ideas",
+        "score": 0.5443
+      }
+    ]
+  }
+]

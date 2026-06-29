@@ -15,6 +15,7 @@ ESSAYS = [
     ("makers_schedule_managers_schedule.txt", "https://paulgraham.com/makersschedule.html"),
     ("default_alive_or_default_dead.txt",     "https://paulgraham.com/aord.html"),
     ("hiring_is_obsolete.txt",                "https://paulgraham.com/hiring.html"),
+    ("startup_growth.txt",                    "https://paulgraham.com/growth.html"), 
 ]
 
 class HTMLTextExtractor(HTMLParser):
@@ -61,6 +62,9 @@ def chunk_text(text, chunk_size=500, overlap=50):
     return chunks
 
 def download_all():
+    if os.path.exists("data/essays/chunks.json"):
+        os.remove("data/essays/chunks.json")
+
     os.makedirs("data/essays", exist_ok=True)
     all_chunks = []
     total_chunks = 0
